@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1349px) {
     #burguer {
         display: none;
     }
