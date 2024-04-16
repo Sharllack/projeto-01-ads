@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1000px) {
+    #burguer {
+        display: none;
+    }
+
+    #pe {
+        display: block;
+    }
+
+    #pe > ul > li {
+        display: inline-block;
+    }
+
+    #pe > ul > li > a:hover {
+        background-color: rgb(94, 93, 93);
+        transition-duration: .5s;
+    }
+
+    main {
+        width: 900px;
+    }
+}
