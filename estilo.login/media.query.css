@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1349px) {
+
     header {
         background-color: lightgray;
         color: black;
