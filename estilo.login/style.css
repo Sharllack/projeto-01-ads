@@ -19,6 +19,8 @@ header {
     color: black;
     padding: 5px;
     box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.322);
+    position: sticky;
+    top: -1px;
 }
 
 header a {
@@ -45,43 +47,32 @@ header a {
     height: 25px;
 }
 
-.form-card {
+#container {
     position: absolute;
-    width: 300px;
     margin: auto;
-    border-radius: 25px;
-    transition: all .3s;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%)
-}
-
-.form-card-2 {
-    border-radius: 0;
-    transition: all .2s;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 0.4em;
     background-color: #6D4534;
-    border-radius: 25px;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
+    border-radius: 25px;
+    transform: translate(-50%, -50%);
+
+    top: 50%;
+    left: 50%;
 }
 
 .title-login {
     text-align: center;
-    margin: 2em;
+    margin: 1.5em;
     color: white;
     font-size: 1.2em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
 }
 
-
+.field {
+    margin: 5px;
+}
 
 .conteudo {
     background-color: rgb(255, 255, 255);
