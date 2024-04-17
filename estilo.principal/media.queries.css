@@ -11,11 +11,7 @@
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
     }
 
-    .logos {
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-    }
+    
 
     #burguer {
         display: none;
