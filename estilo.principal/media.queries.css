@@ -7,6 +7,10 @@
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
     }
 
+    header h1 {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
+    }
+
     #burguer {
         display: none;
     }

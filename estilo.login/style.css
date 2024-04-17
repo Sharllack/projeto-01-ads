@@ -47,6 +47,7 @@ body {
     margin: 2em;
     color: white;
     font-size: 1.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
 }
 
 
@@ -67,7 +68,6 @@ body {
 
 .esenha a:hover {
     text-decoration: underline;
-    color: lightgray;
 }
 
 .btn-login {
