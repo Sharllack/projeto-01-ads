@@ -32,6 +32,7 @@ header a {
 #logo {
     float: right;
     margin-top: 10px;
+    font-size: .7em;
 }
 
 #shield img {
