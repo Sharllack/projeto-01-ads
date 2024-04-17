@@ -55,6 +55,7 @@ body {
     float: right;
     width: 220px;
     height: 12px;
+    font-size: 0.8em;
 }
 
 #topo #usu li:hover {

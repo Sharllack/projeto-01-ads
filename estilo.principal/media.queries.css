@@ -18,6 +18,10 @@
         border-radius: 50%;
     }
 
+    #topo #usu {
+        font-size: 1em;
+    }
+
     header h1 {
         font-size: 4em;
     }
