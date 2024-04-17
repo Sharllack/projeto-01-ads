@@ -18,9 +18,10 @@
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
     }
 
-    form {
+    main {
         max-width: 300px;
         max-height: 250px;
+        margin-top: 150px;
     }
     
     #logo {

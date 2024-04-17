@@ -45,17 +45,14 @@ header a {
     height: 25px;
 }
 
-form {
-    position: absolute;
+main {
     background-color: #6D4534;
     width: 300px;
     height: 250px;
     border-radius: 25px;
+    padding: 5px;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
-    transform: translate(-50%, -50%);
-
-    top: 50%;
-    left: 50%;
+    margin: auto;
 }
 
 h2 {
