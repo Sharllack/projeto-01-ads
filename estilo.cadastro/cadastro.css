@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../imagens/800px-Campo_de_futebol_americano.png');
+    background-image: url('../imagens/fundo.jpeg');
     background-color: black;
     background-repeat: no-repeat;
     background-position: top center;
@@ -51,7 +51,7 @@ header a {
     max-width: 400px;
     margin: auto;
     padding: 20px;
-    background-color: #6D4534;
+    background-color: #6d4534da;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;

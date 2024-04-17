@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('../imagens/800px-Campo_de_futebol_americano.png');
+    background-image: url('../imagens/fundo.jpeg');
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,7 @@ header a {
 }
 
 main {
-    background-color: #6D4534;
+    background-color: #6d4534da;
     width: 300px;
     height: 250px;
     border-radius: 25px;
