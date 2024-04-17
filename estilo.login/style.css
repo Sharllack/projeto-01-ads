@@ -86,6 +86,7 @@ header a {
     background-color: rgb(255, 255, 255);
     padding: 8px;
     border-radius: 25px;
+    border: none;
     padding-right: 50px;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
 }
@@ -93,7 +94,7 @@ header a {
 .esenha a {
     text-decoration: none;
     color: white;
-    margin-left: 60px;
+    margin-left: 5px;
 }
 
 .esenha a:hover {
@@ -101,8 +102,17 @@ header a {
 }
 
 .btn-login {
-    width: 50px;
     cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #0275f0;
 }
 
 .btn-cad {
@@ -113,9 +123,10 @@ header a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: .8em;
     background-color: rgb(240, 239, 239);
-    padding: 2px;
-    border-radius: 2px;
-    border: 1px solid lightgray;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 .btn-cad:hover {

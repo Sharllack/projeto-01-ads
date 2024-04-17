@@ -75,6 +75,7 @@ label {
 #idemail {
     background-color: rgb(255, 255, 255);
     padding: 8px;
+    border: none;
     border-radius: 25px;
     padding-right: 50px;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
@@ -88,7 +89,7 @@ label {
     background: none;
     border: none;
     color: white;
-    font-size: 1.1em;
+    font-size: 1.06em;
     cursor: pointer;
 }
 
@@ -101,7 +102,12 @@ label {
     margin-top: 23px;
     margin-right: 33px;
     color: rgb(0, 0, 0);
-    font-size: 1.1em;
-    padding: 5px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
     cursor: pointer;
+}
+
+#btn-enviar:hover {
+    background-color: rgb(226, 226, 226);
 }
