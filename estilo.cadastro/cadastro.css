@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('/imagens/800px-Campo_de_futebol_americano.png');
+    background-image: url('../imagens/800px-Campo_de_futebol_americano.png');
     background-color: black;
     background-repeat: no-repeat;
     background-position: top center;
