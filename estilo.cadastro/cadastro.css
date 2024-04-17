@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    background-image: url('/imagens/800px-Campo_de_futebol_americano.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #6D4534;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#idata {
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 25px;
+    width: 100%;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
+    border: none;
+}
+
+#idsexo {
+    border-radius: 25px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
+
+.tel {
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 25px;
+    width: 100%;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #f0f0f0;
+    color: #333;
+    float: right;
+}

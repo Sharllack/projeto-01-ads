@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1349px) {
+    header {
+        position: sticky;
+        top: -1px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
+    }
+
     #burguer {
         display: none;
     }

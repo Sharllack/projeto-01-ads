@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/imagens/user.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../estilos.login/style.css">
+    <link rel="stylesheet" href="../estilo.login/style.css">
     <title>Login</title>
 </head>
 <body>
@@ -13,16 +13,19 @@
             <form class="form">
                 <h2 class="title-login">Login</h2>
                 <div class="field">
-                    <span class="input-icon icon icon-user-1"></span>
-                    <input type="text" class="input-field" placeholder="Nome" autocomplete="off">
+                    <label for="idnome" class="input-icon icon icon-user-1"></label>
+                    <input type="text" class="conteudo" id="idnome" placeholder="Nome" autocomplete="on">
                 </div>
                 <div class="field">
-                    <span class="input-icon icon icon-locked"></span>
-                    <input type="password" class="input-field" placeholder="Senha">
+                    <label for="idsenha" class="input-icon icon icon-locked"></label>
+                    <input type="password" class="conteudo" id="idsenha" placeholder="Senha">
+                </div>
+                <div class="esenha">
+                    <a href="esenha.html">Esqueci a senha</a>
                 </div>
                 <div class="box-btn">
                     <button class="btn-login">Entrar</button>
-                    <a href="#" class="btn-cad">Cadastrar</a>
+                    <a href="cadastro.html" class="btn-cad">Cadastre-se</a>
                 </div>
             </form>
         </div>
