@@ -12,14 +12,28 @@
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
     }
 
+    #topo {
+        margin-top: 10px;
+    }
+
+    #topo a {
+        padding: 3px;
+    }
+
+    #topo #usu {
+        float: right;
+        font-size: 1em;
+    }
+
     .logos {
         width: 25px;
         height: 25px;
         border-radius: 50%;
     }
 
-    #topo #usu {
-        font-size: 1em;
+    hr {
+        display: block;
+        margin-top: 22px;
     }
 
     header h1 {
