@@ -3,7 +3,7 @@
 @media screen and (max-width: 375px) {
     header h1 {
         margin-top: 50px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         font-size: 1em;
     }
 }
@@ -11,7 +11,7 @@
 @media screen and (min-width: 375px) and (max-width: 550px) {
     header h1 {
         margin-top: 50px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         font-size: 1.5em;
     }
 }
@@ -19,7 +19,7 @@
 @media screen and (min-width: 550px) and (max-width: 1349px) {
     header h1 {
         margin-top: 50px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         font-size: 2em;
     }
 }
