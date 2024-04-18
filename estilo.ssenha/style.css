@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
 body {
     background-image: url('../imagens/fundo.jpeg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
     background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
 }
 
 header {
@@ -46,82 +46,69 @@ header a {
     height: 25px;
 }
 
-#container {
-    margin: auto;
+main {
     background-color: #6d4534da;
     width: 300px;
     height: 250px;
-    padding: 20px;
-    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
     border-radius: 25px;
-    position: relative;
-    margin-top: 150px;
+    padding: 5px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
+    margin: auto;
 }
 
-.title-login {
+h2 {
     text-align: center;
-    margin: 1.5em;
+    margin: 2em;
     color: white;
     font-size: 1.2em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
 }
 
-.field {
-    margin: 5px;
+label {
+    color: white;
+    margin-left: 39px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    cursor: pointer;
 }
 
-.conteudo {
+#idtel {
     background-color: rgb(255, 255, 255);
-    width: 100%;
     padding: 8px;
-    border-radius: 25px;
     border: none;
+    border-radius: 25px;
     padding-right: 50px;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
+    margin-left: 33px;
+    margin-top: 10px;
 }
 
-.esenha a {
-    text-decoration: none;
+#btn-cancel {
+    margin-top: 29px;
+    margin-left: 39px;
+    background: none;
+    border: none;
     color: white;
-    margin-left: 5px;
+    font-size: 1.06em;
+    cursor: pointer;
 }
 
-.esenha a:hover {
+#btn-cancel:hover {
     text-decoration: underline;
 }
 
-.btn-login {
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-
-.btn-login:hover {
-    background-color: #0275f0;
-}
-
-.btn-cad {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+#btn-enviar {
     float: right;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .8em;
-    background-color: rgb(240, 239, 239);
+    margin-top: 23px;
+    margin-right: 33px;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 10px 20px;
     border-radius: 3px;
     cursor: pointer;
-    margin-right: 5px;
-    margin-top: 5px;
 }
 
-.btn-cad:hover {
-    background-color: rgb(231, 229, 229);
+#btn-enviar:hover {
+    background-color: rgb(0, 38, 255);
+    color: white;
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.13);
 }

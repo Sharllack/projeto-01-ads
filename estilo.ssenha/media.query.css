@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1349px) {
+    header {
+        background-color: lightgray;
+        color: black;
+        padding: 10px;
+        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.322);
+        position: sticky;
+        top: -1px;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 3em;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    }
+
+    main {
+        max-width: 300px;
+        max-height: 250px;
+        margin-top: 150px;
+    }
+    
+    #logo {
+        float: right;
+        margin-top: 20px;
+        font-size: 1em;
+    }
+    
+    #shield img {
+        margin-right: 5px;  
+    }
+    
+    #logo img {
+        vertical-align: middle;
+        width: 25px;
+        height: 25px;
+    }
+}
