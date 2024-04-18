@@ -1,8 +1,14 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 280px) and (max-width: 800px) {
+@media screen and (max-width: 568px) {
     #container {
-        margin-top: 5px;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+    #container {
+        margin-top: 0px;
     }
 }
 
