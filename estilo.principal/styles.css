@@ -75,9 +75,11 @@ header {
 }
 
 header h1 {
+    display: block;
+    margin: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 3em;
-    margin: 20px;
+    font-size: 1em;
+    width: 90px;
 }
 
 #burguer {
