@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1349px) {
+
     header {
+        position: sticky;
+        top: -1;
         background-color: lightgray;
         color: black;
         padding: 10px;
