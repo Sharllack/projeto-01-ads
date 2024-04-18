@@ -16,7 +16,8 @@ body {
 }
 
 header {
-    position: absolute;
+    position: sticky;
+    top: -1px;
     background-color: lightgray;
     color: black;
     padding: 5px;
@@ -55,7 +56,6 @@ header a {
     padding: 20px;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.425);
     border-radius: 25px;
-    position: relative;
     margin-top: 150px;
 }
 
