@@ -6,38 +6,36 @@
     <link rel="shortcut icon" href="./imagens/user.ico" type="image/x-icon">
     <link rel="stylesheet" href="./estilo.login/style.css">
     <link rel="stylesheet" href="./estilo.login/media.query.css">
-    <link rel="stylesheet" href="./estilo.login/paisagem.css">
     <title>Login</title>
 </head>
 <body>
     <header>
         <menu id="topo">
-            <a href="index.html">BAF &#x1F3C8</a>
+            <a href="./index.html">BAF &#x1F3C8</a>
             <div id="logo">
                 <img src="./imagens/shield.png" alt="shield" id="shield">
                 <span>Ambiente 100% seguro</span>
             </div>
         </menu>
     </header>
-        <div id="container">
-            <form action="#" method="post">
-                <h2 class="title-login">Login</h2>
-                <div class="field">
-                    <label for="idnome" class="input-icon icon icon-user-1"></label>
-                    <input type="text" class="conteudo" id="idnome" placeholder="Usuário" autocomplete="on">
-                </div>
-                <div class="field">
-                    <label for="idsenha" class="input-icon icon icon-locked"></label>
-                    <input type="password" class="conteudo" id="idsenha" placeholder="Senha">
-                </div>
-                <div class="esenha">
-                    <a href="opcoes.html">Esqueci a senha</a>
-                </div>
-                <div class="box-btn">
-                    <button class="btn-login">Entrar</button>
-                    <a href="cadastro.html" class="btn-cad">Cadastre-se</a>
-                </div>
-            </form>
-        </div>
+    <div id="container">
+        <form action="./login.js" method="post" onsubmit="logar(event)">
+            <h2 class="title-login">Login</h2>
+            <div class="field">
+                <input type="text" class="conteudo" id="idusu" placeholder="Usuário" autocomplete="on">
+            </div>
+            <div class="field">
+                <input type="password" class="conteudo" id="idsenha" placeholder="Senha">
+            </div>
+            <div class="esenha">
+                <a href="./opcoes.html">Esqueci a senha</a>
+            </div>
+            <div id="botoes">
+                <button type="submit" class="btn-login">Enviar</button>
+                <a href="./cadastro.html" class="btn-cad">Cadastre-se</a>
+            </div>
+        </form>
+    </div>
+    <script src="./login.js"></script>
 </body>
 </html>
