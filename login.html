@@ -19,7 +19,7 @@
         </menu>
     </header>
     <div id="container">
-        <form action="./login.js" method="post" onsubmit="logar(event)">
+        <form onsubmit="logar(event)">
             <h2 class="title-login">Login</h2>
             <div class="field">
                 <input type="text" class="conteudo" id="idusu" placeholder="Usuário" autocomplete="on">
@@ -31,7 +31,7 @@
                 <a href="./opcoes.html">Esqueci a senha</a>
             </div>
             <div id="botoes">
-                <button type="submit" class="btn-login">Enviar</button>
+                <input type="submit" value="Enviar" class="btn-login">
                 <a href="./cadastro.html" class="btn-cad">Cadastre-se</a>
             </div>
         </form>
