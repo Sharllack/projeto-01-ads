@@ -13,22 +13,21 @@ function cadastrarUsuario(event) {
     let sen = document.getElementById("idsen");
     let csen = document.getElementById("idcsen");
 
-    while (sen.value != csen.value) {
-        alert('As senhas não correspondem!');
-    }
-
-    if (nome.value != ''
-    && data.value != ''
-    && sexo.value != ''
-    && mae.value != ''
-    && cpf.value != ''
-    && email.value != ''
-    && cell.value != ''
-    && tel.value != ''
-    && ende.value != ''
-    && login.value != ''
-    && sen.value != ''
-    && csen.value != '') {
+    if (sen.value != csen.value) {
+        alert('As senhas não correspondem!')
+        
+    }else if (nome.value != ''
+            && data.value != ''
+            && sexo.value != ''
+            && mae.value != ''
+            && cpf.value != ''
+            && email.value != ''
+            && cell.value != ''
+            && tel.value != ''
+            && ende.value != ''
+            && login.value != ''
+            && sen.value != ''
+            && csen.value != '') {
 
         localStorage.setItem('nome', nome.value);
          localStorage.setItem('data', data.value);
