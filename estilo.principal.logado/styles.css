@@ -95,7 +95,7 @@ header h1 a {
     cursor: pointer; /* Para mudar o cursor */
 }
 
-#burguer:hover {
+#burguer:active {
     background-color: rgb(138, 137, 137);
 }
 
