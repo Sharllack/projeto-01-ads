@@ -9,7 +9,7 @@ function cadastrarUsuario(event) {
     let cell = document.getElementById("idtel");
     let tel = document.getElementById("idtelf");
     let ende = document.getElementById("idendereco");
-    let log = document.getElementById("idlogin");
+    let login = document.getElementById("idlogin");
     let sen = document.getElementById("idsen");
     let csen = document.getElementById("idcsen");
 
@@ -26,7 +26,7 @@ function cadastrarUsuario(event) {
     && cell.value != ''
     && tel.value != ''
     && ende.value != ''
-    && log.value != ''
+    && login.value != ''
     && sen.value != ''
     && csen.value != '') {
 
@@ -39,7 +39,7 @@ function cadastrarUsuario(event) {
               localStorage.setItem('cell', cell.value);
                localStorage.setItem('tel', tel.value);
                 localStorage.setItem('ende', ende.value);
-                 localStorage.setItem('log', log.value);
+                 localStorage.setItem('login', login.value);
                   localStorage.setItem('sen', sen.value);
                    localStorage.setItem('csen', csen.value);
 
