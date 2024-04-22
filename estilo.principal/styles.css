@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url('../imagens/fundo.jpeg');
+    background-image: url('../imagens/imagenssite/fundo.jpeg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -144,3 +144,55 @@ main {
     margin-bottom: 10px;
 }
 
+.prod div img {
+    max-width: 100%;
+    display: block;
+}
+
+.prod {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.prod div {
+    flex: 1 1 200px;
+    margin: 10px;
+    background-color: white;
+    height: 500px;
+    border: 1px solid rgb(182, 181, 181);
+}
+
+.prod h2 {
+    float: right;
+    margin-right: 20px;
+    background-color: rgba(128, 128, 128, 0.329);
+    padding: 3px;
+    border-radius: 0 20px;
+}
+
+.prod .hr1 {
+    margin: 40px 20px 10px 20px;
+}
+
+.prod .hr2 {
+    margin: 20px 20px 0px 20px;
+}
+
+.prod p {
+    text-align: center;
+}
+
+.prod span {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.prod-item p {
+    margin-top: 40px;
+    text-align: justify;
+    width: 200px;
+    margin: auto;
+}
