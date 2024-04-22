@@ -122,3 +122,10 @@ button[type="reset"] {
     color: #333;
     float: right;
 }
+
+footer {
+    background-color: #6D4534;
+    color: white;
+    text-align: center;
+    align-items: end;
+}

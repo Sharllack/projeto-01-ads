@@ -204,3 +204,9 @@ main {
 .prod-item p a {
     text-decoration: none;
 }
+
+footer {
+    background-color: #6D4534;
+    color: white;
+    text-align: center;
+}
