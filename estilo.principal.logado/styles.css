@@ -65,6 +65,10 @@ hr {
     display: none;
 }
 
+.hr1, .hr2 {
+    display: block;
+}
+
 header {
     background-color: lightgray;
     color: black;
@@ -160,7 +164,7 @@ main {
     flex: 1 1 200px;
     margin: 10px;
     background-color: white;
-    height: 500px;
+    height: 450px;
     border: 1px solid rgb(182, 181, 181);
 }
 
@@ -195,4 +199,8 @@ main {
     text-align: justify;
     width: 200px;
     margin: auto;
+}
+
+.prod-item p a {
+    text-decoration: none;
 }

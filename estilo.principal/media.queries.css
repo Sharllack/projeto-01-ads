@@ -8,9 +8,15 @@
     }
 
     header h1 {
+        width: 150px;
+        margin-left: 135px;
         margin-top: 50px;
         margin-bottom: 30px;
         font-size: 1em;
+    }
+
+    #idpes {
+        display: none;
     }
 }
 
@@ -22,9 +28,15 @@
     }
 
     header h1 {
+        width: 200px;
+        margin-left: 135px;
         margin-top: 50px;
         margin-bottom: 30px;
         font-size: 1.5em;
+    }
+
+    #idpes {
+        display: none;
     }
 }
 
@@ -36,6 +48,8 @@
     }
 
     header h1 {
+        width: auto;
+        margin-left: 135px;
         margin-top: 50px;
         margin-bottom: 30px;
         font-size: 2em;
@@ -50,11 +64,8 @@
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
     }
 
-    header h1 {
-        font-size: 3em;
+    header h1 a {
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
-        width: 1160px;
-        text-align: center;
         margin-top: 5px;
     }
 
@@ -80,10 +91,6 @@
     hr {
         display: block;
         margin-top: 22px;
-    }
-
-    header h1 {
-        font-size: 4em;
     }
 
     #burguer {
