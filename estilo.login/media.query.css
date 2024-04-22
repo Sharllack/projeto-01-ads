@@ -8,6 +8,10 @@
     #container {
         margin-top: 150px;
     }
+
+    footer {
+        font-size: .5em;
+    }
 }
 
 @media screen and (min-width: 568px) and (max-width: 768px) {
@@ -17,6 +21,10 @@
 
     #container {
         margin-top: 0px;
+    }
+
+    footer {
+        font-size: .9em;
     }
 }
 
