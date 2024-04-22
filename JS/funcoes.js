@@ -13,6 +13,8 @@ function clickMenu () {
     }
 }
 
-window.addEventListener("scroll", function(){
+window.addEventListener('scroll', function(){
+    let cab = document.getElementById('header')
     
-}) 
+    cab.classList.toggle('rolagem', window.scrollY > 0) /* Toggle ex.: Se uma coisa existe, retira, senão, põe. */
+});
