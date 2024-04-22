@@ -159,23 +159,40 @@ main {
 .prod div {
     flex: 1 1 200px;
     margin: 10px;
+    background-color: white;
+    height: 500px;
+    border: 1px solid rgb(182, 181, 181);
 }
 
-.prod-item {
-    display: grid;
+.prod h2 {
+    float: right;
+    margin-right: 20px;
+    background-color: rgba(128, 128, 128, 0.329);
+    padding: 3px;
+    border-radius: 0 20px;
 }
 
-.prod-item img {
-    grid-column: 1;
-    grid-row: 1 / 3;
-    align-self: end;
+.prod .hr1 {
+    margin: 40px 20px 10px 20px;
+}
+
+.prod .hr2 {
+    margin: 20px 20px 0px 20px;
+}
+
+.prod p {
+    text-align: center;
+}
+
+.prod span {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .prod-item p {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 10px;
-    color: white;
-    grid-column: 1;
-    grid-row: 2;
-    align-self: end;
+    margin-top: 40px;
+    text-align: justify;
+    width: 200px;
+    margin: auto;
 }
