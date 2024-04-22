@@ -37,6 +37,10 @@
     #burguer {
         display: none;
     }
+
+    #openMenu, #closeMenu {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 375px) and (max-width: 550px) {
@@ -76,6 +80,10 @@
 
     #title1 a {
         display: none;
+    }
+
+    #openMenu, #closeMenu {
+        display: block;
     }
 }
 

@@ -28,13 +28,18 @@ body {
 }
 
 #topo li {
-    display: inline-block;
+    display: inline-flex;
 }
 
 #topo a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+#usu {
+    display: flex;
+    gap:10px;
 }
 
 .logos {
@@ -94,6 +99,10 @@ header.rolagem #lupa {
 
 #lupa {
     display: none;
+}
+
+header.rolagem #openMenu, header.rolagem #closeMenu {
+    display: block;
 }
 
 header h1 {
