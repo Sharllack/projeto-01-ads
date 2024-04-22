@@ -38,6 +38,11 @@
     #idpes {
         display: none;
     }
+
+    header span {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 @media screen and (min-width: 550px) and (max-width: 1349px) {
@@ -52,7 +57,7 @@
         margin-left: 135px;
         margin-top: 50px;
         margin-bottom: 30px;
-        font-size: 2em;
+        font-size: 1.3em;
     }
 }
 
