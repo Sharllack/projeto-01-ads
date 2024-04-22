@@ -12,3 +12,7 @@ function clickMenu () {
         pe.style.display = 'block'
     }
 }
+
+window.addEventListener("scroll", function(){
+    
+}) 
