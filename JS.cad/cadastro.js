@@ -4,11 +4,17 @@ function cadastrarUsuario(event) {
     let data = document.getElementById("idata");
     let sexo = document.getElementById("idsexo");
     let mae = document.getElementById("idmae");
-    let cpf = document.getElementById("idcpf");
+    let cpf = document.getElementById("cpf");
     let email = document.getElementById("idemail");
     let cell = document.getElementById("idtel");
     let tel = document.getElementById("idtelf");
-    let ende = document.getElementById("idendereco");
+    let cep = document.getElementById("idcep");
+    let rua = document.getElementById('idrua');
+    let num = document.getElementById('idnum');
+    let comp = document.getElementById('idcomp');
+    let bai = document.getElementById('idbai');
+    let cdd = document.getElementById('idcdd');
+    let est = document.getElementById('idest');
     let login = document.getElementById("idlogin");
     let sen = document.getElementById("idsen");
     let csen = document.getElementById("idcsen");
@@ -24,7 +30,13 @@ function cadastrarUsuario(event) {
             && email.value != ''
             && cell.value != ''
             && tel.value != ''
-            && ende.value != ''
+            && cep.value != ''
+            && rua.value != ''
+            && num.value != ''
+            && comp.value != ''
+            && bai.value != ''
+            && cdd.value != ''
+            && est.value != ''
             && login.value != ''
             && sen.value != ''
             && csen.value != '') {
@@ -37,10 +49,16 @@ function cadastrarUsuario(event) {
              localStorage.setItem('email', email.value);
               localStorage.setItem('cell', cell.value);
                localStorage.setItem('tel', tel.value);
-                localStorage.setItem('ende', ende.value);
-                 localStorage.setItem('login', login.value);
-                  localStorage.setItem('sen', sen.value);
-                   localStorage.setItem('csen', csen.value);
+                localStorage.setItem('cep', cep.value);
+                 localStorage.setItem('rua', rua.value);
+                  localStorage.setItem('num', num.value);
+                   localStorage.setItem('comp', comp.value);
+                    localStorage.setItem('bai', bai.value);
+                     localStorage.setItem('cdd', cdd.value);
+                      localStorage.setItem('est', est.value);
+                       localStorage.setItem('login', login.value);
+                        localStorage.setItem('sen', sen.value);
+                         localStorage.setItem('csen', csen.value);
 
     alert('Cadastro efetuado com sucesso!');
 
