@@ -6,9 +6,11 @@ function logar(event) {
     let usuario = document.getElementById('idusu');
     let sen = document.getElementById('idsenha');
 
+    localStorage.setItem('usuario', usuario.value);
+
     if (login == usuario.value && pass == sen.value) {
         alert('Usuário logado com sucesso!');
-
+        
         window.location = './index.logado.html';
 
     } else if (usuario.value == '' && sen.value == '' ) {
@@ -18,4 +20,5 @@ function logar(event) {
         alert('Usuário ou senha incorretos!');
         
     }
+
 }
