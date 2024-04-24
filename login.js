@@ -7,10 +7,9 @@ function logar(event) {
     let sen = document.getElementById('idsenha');
 
     if (login == usuario.value && pass == sen.value) {
-        alert('Usuário logado com sucesso!');   
+        alert('Usuário logado com sucesso!');
 
         window.location = './index.logado.html';
-
 
     } else if (usuario.value == '' && sen.value == '' ) {
         alert('Preencha todos os dados!');
