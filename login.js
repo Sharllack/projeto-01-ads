@@ -9,7 +9,7 @@ function logar(event) {
     if (login == usuario.value && pass == sen.value) {
         alert('Usuário logado com sucesso!');
 
-        window.location = './index.html';
+        window.location = './index.logado.html';
 
 
     } else if (usuario.value == '' && sen.value == '' ) {
