@@ -23,7 +23,18 @@ function buscaCEP() {
     }
 }
 
+if (navigator.onLine == true) {
 window.onload = function() {
     let idcep = document.getElementById('idcep');
     idcep.addEventListener("blur", buscaCEP);
+    
+    let rua = document.getElementById('idrua');
+    rua.setAttribute("readonly", true);
+    let cdd = document.getElementById('idcdd');
+    cdd.setAttribute("readonly", true);
+    let est = document.getElementById('idest');
+    est.setAttribute("readonly", true);
+    let bai = document.getElementById('idbai');
+    bai.setAttribute("readonly", true);
+}
 }
