@@ -1,11 +1,11 @@
-function mudouTamanho () {
+function mudouTamanho() {
     if (window.innerWidth >= 1349) {
         pe.style.display = 'block'
     } else {
         pe.style.display = 'none'
     }
 }
-function clickMenu () {
+function clickMenu() {
     if (pe.style.display == 'block') {
         pe.style.display = 'none'
     } else {
