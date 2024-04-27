@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.cadastro/cadastro.css">
+
+    <title>UNISUAM</title>
+</head>
+<body class="login-layout">
+<div class="wrapper fadeInDown">
+    <div class="fadeIn first">
+        <h1 class="ajuste-logo">
+            <img src="./imagens/logo.png" id="icon" alt="User Icon"/>
+        </h1>
+    </div>
+
+    <div id="formContent">
+
+        
+        
+    <!-- Login Form -->
+        <form method="POST">
+            <h3 id="dados">Dados pessoais:</h3>
+            <input type="text" name="nome" placeholder="Nome" id="idnome">
+            <input type="text" name="sobrenome" placeholder="Sobrenome" id="idsobre">
+            <input type="email" name="email" placeholder="E-mail" id="idemail">
+            <input type="password" name="senha" placeholder="Senha" id="idsen">
+            <input type="password" name="confirmacao_senha" placeholder="Confirmação da Senha" id="idcsen">
+
+            <h3 id="ctt">Contato:</h3>
+            <input type="tel" class="tel" name="telefone_celular" placeholder="Telefone Celular" id="idtel">
+            <input type="text" class="end" id="idcep" placeholder="CEP XXXXX-XXX">
+            <input type="text" class="end" id="idrua" placeholder="Rua">
+            <input type="text" class="end" id="idnum" placeholder="Nº">
+            <input type="text" class="end" id="idcomp" placeholder="Complemento">
+            <input type="text" class="end" id="idbai" placeholder="Bairro">
+            <input type="text" class="end" id="idcdd" placeholder="Cidade">
+            <input type="text" class="end" id="idest" placeholder="Estado">
+
+            <h3>Interesses acadêmicos:</h3>
+            <div id="inte">
+                <input type="checkbox" name="ads" id="idads" class="inte"> Analise e Desenvolvimento de Sistemas;<br>
+                <input type="checkbox" name="edu" id="idedu" class="inte"> Educação Fisica;<br>
+                <input type="checkbox" name="fisio" id="idfisio" class="inte"> Fisioterapia;<br>
+                <input type="checkbox" name="direi" id="iddirei" class="inte"> Direito.
+            </div>
+            <select name="semestre" id="idsemestre">
+                <option value="" id="sel">--Selecione o Período--</option>
+                <option value="pSemestre">1º Semestre</option>
+                <option value="sSemestre">2º Semestre</option>
+            </select>
+
+            <h3 id="prof">Experiência profissional:</h3>
+            <input type="text" name="empresa" id="idempresa" placeholder="Nome da última empresa"><br>
+            <label for="idInicio">Início</label><br>
+            <input type="date" name="dataInicio" id="idInicio">
+            <label for="idFim"><DAtag>Término</DAtag></label>
+            <input type="date" name="dataFim" id="idFim">
+
+            <h5 id="obs">Observações:</h5>
+            <textarea name="obs" id="idobs" cols="30" rows="10" maxlength="200"></textarea>
+
+
+            <div id="rodape_card">
+            <button type="reset" class="fadeIn fifth" id="botao">LIMPAR</button>
+            <input type="submit" onclick="submitForm()" class="fadeIn fourth" value="Cadastrar">
+            </div>
+        </form>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-sm-offset-1 login-info">
+            <p>
+                                © 2024 L. MENEZES.
+                Todos os direitos reservados.</p>
+        </div>
+    </div>
+    <script src="./estilo.cadastro/JS.cad/cadastro.js"></script>
+    <script src="./estilo.cadastro/JS.cad/cep.js"></script>
+    <script src="./estilo.cadastro/JS.cad/cpf.js"></script>
+</div>
+</body>
+</html>
