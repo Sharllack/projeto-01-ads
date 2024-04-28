@@ -155,7 +155,7 @@
     #title1 a {
         display: none;
         font-size: 1.5em;
-        color: black;
+        color: rgb(255, 255, 255);
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
@@ -188,8 +188,8 @@
     #title1 a{
         display: none;
         font-size: 1.5em;
-        color: black;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     #topo {
