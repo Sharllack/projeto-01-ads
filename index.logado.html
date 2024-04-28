@@ -4,35 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagens/icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./estilo.principal.logado/styles.css">
-    <link rel="stylesheet" href="./estilo.principal.logado/media.queries.css">
+    <link rel="stylesheet" href="./estilo.principal/styles.css">
+    <link rel="stylesheet" href="./estilo.principal/media.queries.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Projeto 01 ADS </title>
 </head>
 <body onresize="mudouTamanho()">
-    <header>
+    <header id="header">
         <menu id="topo">
+            <h1>
+                <div id="title">
+                    <img src="./imagens/logolm1.png" alt="logo L e M" id="img1">
+                    <img src="./imagens/logonfl.png" alt="logo nfl" id="img2">
+                </div>
+                <input type="search" name="pes" id="idpes" placeholder="O que você está buscando?">
+                <span class="material-symbols-outlined" id="car">
+                    shopping_cart
+                    </span>
+            </h1>
+            <ul id="usu">
+                <li><a href="login.html">Login &#x1F464</a></li>
+                <li><a href="cadastro.html"> Cadastre-se  &#x1F58A &#xFE0F</a></li>
+            </ul>
             <ul id="redes">
                 <li><a href="#"><img src="./imagens/logo-facebook.jpg" alt="Facebook" class="logos"></a></li>
                 <li><a href="#"><img src="./imagens/logo-instagram.jpg" alt="Instagram" class="logos"></a></li>
                 <li><a href="#"><img src="./imagens/x_logo.png" alt="Twitter" class="logos"></a></li>
                 <li><a href="#"><img src="./imagens/whats_logo.png" alt="Whatsapp" class="logos"></a></li>
             </ul>
-            <ul id="usu">
-                <li><a href="login.html" id="logout">logout</a><a href="login.html"><img src="./imagens/logout.png" alt="logout"></a></li>
-            </ul>
         </menu>
-            <hr>
-            <h1>
-                <div id="title">
-                    <a href="./index.html">BRAZIL AMERICAN FOOTBALL &#x1F3C8</a>
-                </div>
-                <hr>
-                <input type="search" name="pes" id="idpes" placeholder="O que você está buscando?">
-                <span class="material-symbols-outlined">
-                    shopping_cart
-                    </span>
-            </h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
         <menu id="pe">
             <ul>
@@ -154,7 +154,7 @@
                 </div>
             </section>
         </main>
-    <footer>Site criado por <strong>Larissa Menezes</strong> e <strong>Lucas Menezes</strong> para o Projeto de ADS.</footer>
-    <script src="./indexlog.js"></script>
+        <footer>Site criado por <strong>Larissa Menezes</strong> e <strong>Lucas Menezes</strong> para o Projeto de ADS.</footer>
+    <script src="./JS/funcoes.js"></script>
 </body>
 </html>

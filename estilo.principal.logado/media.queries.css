@@ -9,17 +9,33 @@
 
     header h1 {
         justify-content: space-between;
-        margin-left: 135px;
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 1em;
+    }
+
+    header #usu {
+        display: none;
     }
 
     #title {
         margin: auto;
     }
 
-    #title1 a {
+    #title #img1 {
+        width: 40px;
+    }
+
+    #title #img2 {
+        width: 40px;
+        height: 40px;
+    }
+
+    #car {
+        display: none;
+    }
+
+    #redes {
         display: none;
     }
 
@@ -48,25 +64,40 @@
     header {
         position: sticky;
         top: -1px;
+        padding: 0px;
     }
 
     header h1 {
         justify-content: space-between;
-        margin-left: 135px;
-        margin-top: 10px;
-        margin-bottom: 10px;
         font-size: 1.5em;
+    }
+
+    header #usu {
+        display: none;
     }
 
     #title {
         margin: auto;
     }
 
+    #title #img1 {
+        width: 50px;
+    }
+
+    #title #img2 {
+        width: 50px;
+        height: 40px;
+    }
+
+    #car {
+        display: none;
+    }
+
     #idpes {
         display: none;
     }
-    
-    header h1 hr {
+
+    header #redes {
         display: none;
     }
 
@@ -75,10 +106,6 @@
     }
 
     #burguer {
-        display: none;
-    }
-
-    #title1 a {
         display: none;
     }
 
@@ -96,29 +123,23 @@
 
     header h1 {
         justify-content: space-between;
-        margin-left: 135px;
-        margin-top: 10px;
-        margin-bottom: 10px;
         font-size: 1.3em;
     }
 
-    #title {
-        margin: auto;
+    header #redes {
+        display: none;
     }
+
+    header #usu {
+        display: none;
+    }
+
+    #car {
+        display: none;
+    }
+
 
     #idpes {
-        display: none;
-    }
-
-    header h1 hr {
-        display: none;
-    }
-
-    #title1 a{
-        font-size: 1.1em;
-    }
-    
-    #title1 a {
         display: none;
     }
 
@@ -137,30 +158,20 @@
         top: -1px;
     }
 
-    header h1 {
-        margin-left: 135px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 1em;
-    }
-
-    header h1 hr {
-        margin-top: 10px;
-    }
-
     #title {
         width: auto;
     }
 
-    #title1 a {
+    #car {
         display: none;
-        font-size: 1.5em;
-        color: black;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
-    header.rolagem #title1 a {
-        display: block;
+    #redes {
+        display: none;
+    }
+
+    #usu {
+        display: none;
     }
 
     #burguer {
@@ -174,22 +185,6 @@
         position: sticky;
         top: -1px;
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
-    }
-
-    header h1 a {
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.26);
-        margin-top: 5px;
-    }
-
-    header.rolagem #title1 a {
-        display: block;
-    }
-    
-    #title1 a{
-        display: none;
-        font-size: 1.5em;
-        color: black;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
     #topo {
@@ -209,11 +204,6 @@
         width: 25px;
         height: 25px;
         border-radius: 50%;
-    }
-
-    hr {
-        display: block;
-        margin-top: 10px;
     }
 
     #burguer {

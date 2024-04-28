@@ -5,6 +5,24 @@
         background-position: top center;
     }
 
+    #title #img1 {
+        width: 40px;
+    }
+
+    #title #img2 {
+        width: 40px;
+        height: 30px;
+    }
+
+    span {
+        font-size: .5em;
+    }
+
+    #logo #shield {
+        width: 15px;
+        height: 15px;
+    }
+
     #container {
         margin-top: 150px;
     }
@@ -19,52 +37,20 @@
         background-position: top center;
     }
 
+    #title #img1 {
+        width: 60px;
+    }
+
+    #title #img2 {
+        width: 60px;
+        height: 40px;
+    }
+
     #container {
         margin-top: 0px;
     }
 
     footer {
         font-size: .9em;
-    }
-}
-
-@media screen and (min-width: 1349px) {
-    body {
-        background-position: top center;
-    }
-
-    header {
-        background-color: lightgray;
-        color: black;
-        padding: 10px;
-        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.322);
-    }
-    
-    header a {
-        text-decoration: none;
-        color: black;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 3em;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
-    }
-
-    #container {
-        margin-top: 150px;
-    }
-    
-    #logo {
-        float: right;
-        margin-top: 20px;
-        font-size: 1em;
-    }
-    
-    #shield img {
-        margin-right: 5px;  
-    }
-    
-    #logo img {
-        vertical-align: middle;
-        width: 25px;
-        height: 25px;
     }
 }

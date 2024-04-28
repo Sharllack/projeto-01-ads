@@ -19,8 +19,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightgray;
-    margin-top: 10px;
+    background-color: rgb(27, 27, 27);
+    height: 100px;
 }
 
 #topo ul {
@@ -33,7 +33,7 @@ body {
 
 #topo a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -68,33 +68,68 @@ body {
 }
 
 header {
-    background-color: lightgray;
-    color: black;
+    background-color: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
     padding: 10px;
     box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.322);
     margin-bottom: 10px;
     transition: .5s;
 }
 
+header #title {
+    display: flex;
+    align-items: center;
+}
+
+header #img1 {
+    width: 100px;
+    transition: .5s;
+}
+
+header #img2 {
+    width: 100px;
+    height: 60px;
+    margin-right: 50px;
+    transition: .5s;
+}
+
 header.rolagem {
     background-color: #6d453400;
     box-shadow: none;
+    transition: .5s;
 }
 
-header.rolagem h1, header.rolagem #pe, header.rolagem #hrtop {
+header.rolagem #img1 {
+    width: 80px;
+    transition: .5s;
+}
+
+header.rolagem #img2 {
+    width: 80px;
+    height: 40px;
+    transition: .5s;
+}
+
+header.rolagem div, header.rolagem div a, header.rolagem #pe a{
     color: #6d453400;
     background-color: #6d453400;
+    transition: .5s;
+    text-shadow: none;
+}
+
+header.rolagem #pe{
     display: none;
 }
 
 header.rolagem #topo {
     margin: -10px;
-    padding: 10px;
-
+    padding: 25px;
+    transition: .5s;
 }
 
 header.rolagem #lupa {
     display: inline;
+    transition: .5s;
 }
 
 #lupa {
@@ -103,6 +138,7 @@ header.rolagem #lupa {
 
 header.rolagem #openMenu, header.rolagem #closeMenu {
     display: block;
+    transition: .5s;
 }
 
 header h1 {
@@ -116,22 +152,20 @@ header h1 {
 header h1 a {
     margin-left: -135px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-header h1 hr {
-    height: 25px;
-    margin-bottom: 10px;
-    margin-right: 5px;
 }
 
 #idpes {
     display: flex;
     width: 40vw;
-    padding: 5px;
+    padding: 15px;
     border-radius: 8px;
     border: 1px solid black;
+}
+
+#car {
+    margin-left: 15px;
 }
 
 #burguer {
@@ -170,7 +204,7 @@ header h1 hr {
 #pe a {
     display: flex;
     justify-content: space-around;
-    background-color: #6D4534;
+    background-color: #073260;
     text-decoration: none;
     text-align: center;
     color: white;
@@ -181,6 +215,7 @@ header h1 hr {
 
 #pe li a:hover {
     background-color: rgb(138, 137, 137);
+    transition: .5s;
 }
 
 .dropdown-menu {
@@ -214,7 +249,8 @@ main {
 .prod img {
     width: 100%;
     display: block;
-    transition: .5s all ease-in-out;
+    transition: .5s all ease;
+    object-fit: contain;
 }
 
 .prod img:hover {
@@ -234,7 +270,6 @@ main {
     background-color: white;
     height: 500px;
     border: 1px solid rgb(182, 181, 181);
-    padding: 0px 25px;
 }
 
 .prod h2 {
@@ -281,7 +316,7 @@ main {
 }
 
 footer {
-    background-color: #6D4534;
+    background-color: rgb(27, 27, 27);
     color: white;
     text-align: center;
 }

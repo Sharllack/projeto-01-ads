@@ -19,8 +19,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 0, 0);
-    margin-top: 10px;
+    background-color: rgb(27, 27, 27);
+    height: 100px;
 }
 
 #topo ul {
@@ -68,7 +68,7 @@ body {
 }
 
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(27, 27, 27);
     color: rgb(255, 255, 255);
     padding: 10px;
     box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.322);
@@ -76,8 +76,21 @@ header {
     transition: .5s;
 }
 
-header img {
-    width: 150px;
+header #title {
+    display: flex;
+    align-items: center;
+}
+
+header #img1 {
+    width: 100px;
+    transition: .5s;
+}
+
+header #img2 {
+    width: 100px;
+    height: 60px;
+    margin-right: 50px;
+    transition: .5s;
 }
 
 header.rolagem {
@@ -86,20 +99,31 @@ header.rolagem {
     transition: .5s;
 }
 
-header.rolagem h1, header.rolagem div, header.rolagem div a, header.rolagem #pe a{
+header.rolagem #img1 {
+    width: 80px;
+    transition: .5s;
+}
+
+header.rolagem #img2 {
+    width: 80px;
+    height: 40px;
+    transition: .5s;
+}
+
+header.rolagem div, header.rolagem div a, header.rolagem #pe a{
     color: #6d453400;
     background-color: #6d453400;
     transition: .5s;
     text-shadow: none;
 }
 
-header.rolagem h1 #idpes, header.rolagem > h1 > hr, header.rolagem #hrtop, header.rolagem h1 img{
+header.rolagem #pe{
     display: none;
 }
 
 header.rolagem #topo {
     margin: -10px;
-    padding: 10px;
+    padding: 25px;
     transition: .5s;
 }
 
@@ -132,18 +156,16 @@ header h1 a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-header h1 hr {
-    height: 25px;
-    margin-bottom: 10px;
-    margin-right: 5px;
-}
-
 #idpes {
     display: flex;
     width: 40vw;
-    padding: 5px;
+    padding: 15px;
     border-radius: 8px;
     border: 1px solid black;
+}
+
+#car {
+    margin-left: 15px;
 }
 
 #burguer {
@@ -182,7 +204,7 @@ header h1 hr {
 #pe a {
     display: flex;
     justify-content: space-around;
-    background-color: #6D4534;
+    background-color: #073260;
     text-decoration: none;
     text-align: center;
     color: white;
@@ -294,7 +316,7 @@ main {
 }
 
 footer {
-    background-color: #6D4534;
+    background-color: rgb(27, 27, 27);
     color: white;
     text-align: center;
 }
