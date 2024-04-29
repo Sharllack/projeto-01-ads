@@ -36,15 +36,20 @@ header #title {
 }
 
 header #img1 {
-    width: 100px;
+    width: 60px;
     transition: .5s;
 }
 
 header #img2 {
-    width: 100px;
-    height: 60px;
+    width: 60px;
+    height: 40px;
     margin-right: 50px;
     transition: .5s;
+}
+
+
+#topo {
+    height: 50px;
 }
 
 #shield img {

@@ -36,13 +36,13 @@ header #title {
 }
 
 header #img1 {
-    width: 100px;
+    width: 60px;
     transition: .5s;
 }
 
 header #img2 {
-    width: 100px;
-    height: 60px;
+    width: 60px;
+    height: 40px;
     margin-right: 50px;
     transition: .5s;
 }
@@ -65,6 +65,7 @@ header #img2 {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .container h2 {
