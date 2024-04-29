@@ -18,78 +18,74 @@
                     <img src="./imagens/logonfl.png" alt="logo nfl" id="img2">
                 </div>
                 <input type="search" name="pes" id="idpes" placeholder="O que você está buscando?">
-                <span class="material-symbols-outlined" id="car">
-                    shopping_cart
-                    </span>
             </h1>
-            <ul id="usu">
-                <li><a href="login.html">Login &#x1F464</a></li>
-                <li><a href="cadastro.html"> Cadastre-se  &#x1F58A &#xFE0F</a></li>
-            </ul>
-            <ul id="redes">
-                <li><a href="#"><img src="./imagens/logo-facebook.jpg" alt="Facebook" class="logos"></a></li>
-                <li><a href="#"><img src="./imagens/logo-instagram.jpg" alt="Instagram" class="logos"></a></li>
-                <li><a href="#"><img src="./imagens/x_logo.png" alt="Twitter" class="logos"></a></li>
-                <li><a href="#"><img src="./imagens/whats_logo.png" alt="Whatsapp" class="logos"></a></li>
-            </ul>
+            <button class="hamburguer"></button>
+                <ul id="usu">
+                    <li><a href="login.html">Login &#x1F464</a></li>
+                    <li><a href="cadastro.html"> Cadastre-se  &#x1F58A &#xFE0F</a></li>
+                    <li><a href="#"><img src="./imagens/logo-facebook.jpg" alt="Facebook" class="logos"></a></li>
+                    <li><a href="#"><img src="./imagens/logo-instagram.jpg" alt="Instagram" class="logos"></a></li>
+                    <li><a href="#"><img src="./imagens/x_logo.png" alt="Twitter" class="logos"></a></li>
+                    <li><a href="#"><img src="./imagens/whats_logo.png" alt="Whatsapp" class="logos"></a></li>
+                </ul>
         </menu>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
-        <menu id="pe">
-            <ul>
-                <li class="dropdown">
-                    <a href="#">Luvas</a>
-                    <div class="dropdown-menu">
-
-                        <a href="#">Nossa História</a>
-                        <a href="#">Nossa História</a>
-                        <a href="#">Nossa História</a>
-                    </div>
-                
-                </li>
-                <li class="dropdown">
-                    <a href="#">Chuteiras</a>
-
-                    <div class="dropdown-menu">
-                        <a href="#">Nossa História</a>
-                        <a href="#">Nossa História</a>
-                        <a href="#">Nossa História</a>
-                    </div>
-                
-                </li>
-                <li class="dropdown">
-                    <a href="#">Capacetes</a>
-
-                    <div class="dropdown-menu">
-                        <a href="#">Nossa História</a>
-                        <a href="#">Nossa História</a>
-                        <a href="#">Nossa História</a>
-                    </div>
-
-
-                    </li>
-                <li class="dropdown">
-                    <a href="#">Shoulder pad</a>
-
+    </header>
+    <menu id="pe">
+        <ul>
+            <li class="dropdown">
+                <a href="#">Luvas</a>
                 <div class="dropdown-menu">
+
                     <a href="#">Nossa História</a>
                     <a href="#">Nossa História</a>
                     <a href="#">Nossa História</a>
-                </div>   
-                        
-                        </li>
-                <li class="dropdown">
-                    <a href="#">Bolas</a>
+                </div>
+            
+            </li>
+            <li class="dropdown">
+                <a href="#">Chuteiras</a>
 
                 <div class="dropdown-menu">
                     <a href="#">Nossa História</a>
                     <a href="#">Nossa História</a>
                     <a href="#">Nossa História</a>
                 </div>
-                
-                </li>
-            </ul>
-        </menu>
-    </header>
+            
+            </li>
+            <li class="dropdown">
+                <a href="#">Capacetes</a>
+
+                <div class="dropdown-menu">
+                    <a href="#">Nossa História</a>
+                    <a href="#">Nossa História</a>
+                    <a href="#">Nossa História</a>
+                </div>
+
+
+            </li>
+            <li class="dropdown">
+                <a href="#">Shoulder pad</a>
+
+            <div class="dropdown-menu">
+                <a href="#">Nossa História </a>
+                <a href="#">Nossa História</a>
+                <a href="#">Nossa História</a>
+            </div>   
+                    
+            </li>
+            <li class="dropdown">
+                <a href="#">Bolas</a>
+
+            <div class="dropdown-menu">
+                <a href="#">Nossa História</a>
+                <a href="#">Nossa História</a>
+                <a href="#">Nossa História</a>
+            </div>
+            
+            </li>
+        </ul>
+    </menu>
         <main>
             <section class="prod">
                 <div class="prod-item">
@@ -156,5 +152,11 @@
         </main>
         <footer>Site criado por <strong>Larissa Menezes</strong> e <strong>Lucas Menezes</strong> para o Projeto de ADS.</footer>
     <script src="./JS/funcoes.js"></script>
+    <script>
+        let hamburguer = document.querySelector(".hamburguer");
+        let menu = document.getElementById("topo");
+
+        hamburguer.addEventListener("click", () => menu.classList.toggle("active"));
+    </script>
 </body>
 </html>

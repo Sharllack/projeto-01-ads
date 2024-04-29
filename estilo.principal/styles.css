@@ -24,11 +24,13 @@ body {
 }
 
 #topo ul {
+    display: flex;
     list-style-type: none;
 }
 
 #topo li {
     display: inline-flex;
+    margin-left: 10px;
 }
 
 #topo a {
@@ -37,23 +39,10 @@ body {
     font-weight: bold;
 }
 
-#usu {
-    display: flex;
-    gap:10px;
-}
-
 .logos {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-}
-
-#topo #redes li:hover {
-    transform: translate(-5%, -5%);
-}
-
-#topo #usu {
-    font-size: 0.8em;
 }
 
 #topo #usu li:hover {
@@ -71,9 +60,9 @@ header {
     background-color: rgb(27, 27, 27);
     color: rgb(255, 255, 255);
     padding: 10px;
-    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.322);
-    margin-bottom: 10px;
     transition: .5s;
+    position: sticky;
+    top: -1px;
 }
 
 header #title {
@@ -127,15 +116,6 @@ header.rolagem #topo {
     transition: .5s;
 }
 
-header.rolagem #lupa {
-    display: inline;
-    transition: .5s;
-}
-
-#lupa {
-    display: none;
-}
-
 header.rolagem #openMenu, header.rolagem #closeMenu {
     display: block;
     transition: .5s;
@@ -164,12 +144,8 @@ header h1 a {
     border: 1px solid black;
 }
 
-#car {
-    margin-left: 15px;
-}
-
 #burguer {
-    background-color: #6D4534;
+    background-color: #073260;
     color: white;
     display: block;
     text-align: center;
@@ -182,13 +158,9 @@ header h1 a {
 }
 
 #pe {
-    display: none;
-    margin: 10px;
-}
-
-#pe a {
-    display: block;
-    padding: 10px;
+    background-color: #073260;
+    width: 98.79vw;
+    margin-bottom: 10px;
 }
 
 #pe ul {
@@ -197,14 +169,16 @@ header h1 a {
 }
 
 #pe li {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+}
+
+#pe li a {
+    background-color: #073260;
 }
 
 #pe a {
     display: flex;
-    justify-content: space-around;
-    background-color: #073260;
+    justify-content: space-between;
     text-decoration: none;
     text-align: center;
     color: white;
@@ -219,7 +193,6 @@ header h1 a {
 }
 
 .dropdown-menu {
-    background-color: white;
     position: absolute;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.459);
@@ -229,6 +202,26 @@ header h1 a {
 
 .dropdown:hover .dropdown-menu{
     display: block;
+}
+
+.hamburguer {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: .3s;
 }
 
 main {

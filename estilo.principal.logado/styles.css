@@ -127,15 +127,6 @@ header.rolagem #topo {
     transition: .5s;
 }
 
-header.rolagem #lupa {
-    display: inline;
-    transition: .5s;
-}
-
-#lupa {
-    display: none;
-}
-
 header.rolagem #openMenu, header.rolagem #closeMenu {
     display: block;
     transition: .5s;
@@ -162,10 +153,6 @@ header h1 a {
     padding: 15px;
     border-radius: 8px;
     border: 1px solid black;
-}
-
-#car {
-    margin-left: 15px;
 }
 
 #burguer {
