@@ -106,7 +106,7 @@ header.rolagem div, header.rolagem div a, header.rolagem #pe a{
     text-shadow: none;
 }
 
-header.rolagem #pe{
+header.rolagem #pe, header.rolagem #burguer{
     display: none;
 }
 
@@ -172,11 +172,10 @@ header h1 a {
     display: inline-block;
 }
 
-#pe li a {
-    background-color: #073260;
-}
-
 #pe a {
+    background-color: #073260;
+    width: 100vw;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
