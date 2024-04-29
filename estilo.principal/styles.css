@@ -58,6 +58,23 @@ body {
     transition-duration: 1s;
 }
 
+#logout-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+#logout-button:hover {
+    text-decoration: underline;
+}
+
+#logout span {
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
 .hr1, .hr2 {
     display: block;
 }
@@ -125,6 +142,10 @@ header.rolagem .logos {
 header.rolagem #usu {
     font-size: 15px;
     transition: .5s;
+}
+
+header.rolagem #logout {
+    font-size: 15px;
 }
 
 header.rolagem #openMenu, header.rolagem #closeMenu {
