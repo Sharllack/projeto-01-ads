@@ -34,7 +34,6 @@ function validarCPF(cpf) {
 // Exemplo de uso:
 const cpfExemplo = '123.456.789-09';
 if (validarCPF(cpfExemplo)) {
-    console.log('CPF válido.');
 } else {
     console.log('CPF inválido.');
 }
@@ -44,7 +43,6 @@ if (validarCPF(cpfExemplo)) {
             const cpf = cpfInput.value;
 
             if (validarCPF(cpf)) {
-                alert('CPF válido.');
             } else {
                 alert('CPF inválido.');
             }
