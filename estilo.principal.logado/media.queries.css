@@ -2,6 +2,85 @@
 
 @media screen and (max-width: 375px) {
 
+    .hamburguer {
+        display: block;
+        z-index: 1;
+    }
+
+    #usu {
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(27, 27, 27);
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    #usu a {
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    #usu li:nth-child(1) a {
+        transition: .5s .2s;
+    }
+
+    #usu li:nth-child(2) a {
+        transition: .5s .4s;
+    }
+
+    #usu li:nth-child(3) a {
+        transition: .5s .6s;
+    }
+
+    #usu li:nth-child(4) a {
+        transition: .5s .8s;
+    }
+
+    #usu li:nth-child(5) a {
+        transition: .5s 1s;
+    }
+
+    #usu li:nth-child(6) a {
+        transition: .5s 1.2s;
+    }
+
+    #topo.active #usu {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    #topo.active #usu a {
+        opacity: 1;
+    }
+
+    #topo.active .hamburguer {
+        position: fixed;
+        top: 26px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+
+    #topo.active .hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    #topo.active .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
     header {
         position: sticky;
         top: -1px;
@@ -14,7 +93,7 @@
         font-size: 1em;
     }
 
-    header #usu {
+    #pe {
         display: none;
     }
 
@@ -27,16 +106,8 @@
     }
 
     #title #img2 {
-        width: 40px;
+        width: 60px;
         height: 40px;
-    }
-
-    #car {
-        display: none;
-    }
-
-    #redes {
-        display: none;
     }
 
     #idpes {
@@ -49,17 +120,89 @@
     footer {
         font-size: .5em;
     }
-
-    #burguer {
-        display: none;
-    }
-
-    #openMenu, #closeMenu {
-        display: block;
-    }
 }
 
 @media screen and (min-width: 375px) and (max-width: 550px) {
+    
+    .hamburguer {
+        display: block;
+        z-index: 1;
+    }
+
+    #usu {
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(27, 27, 27);
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    #usu a {
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    #usu li:nth-child(1) a {
+        transition: .5s .2s;
+    }
+
+    #usu li:nth-child(2) a {
+        transition: .5s .4s;
+    }
+
+    #usu li:nth-child(3) a {
+        transition: .5s .6s;
+    }
+
+    #usu li:nth-child(4) a {
+        transition: .5s .8s;
+    }
+
+    #usu li:nth-child(5) a {
+        transition: .5s 1s;
+    }
+
+    #usu li:nth-child(6) a {
+        transition: .5s 1.2s;
+    }
+
+    #topo.active #usu {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    #topo.active #usu a {
+        opacity: 1;
+    }
+
+    #topo.active .hamburguer {
+        position: fixed;
+        top: 26px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+
+    #topo.active .hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    #topo.active .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
 
     header {
         position: sticky;
@@ -70,10 +213,6 @@
     header h1 {
         justify-content: space-between;
         font-size: 1.5em;
-    }
-
-    header #usu {
-        display: none;
     }
 
     #title {
@@ -89,32 +228,99 @@
         height: 40px;
     }
 
-    #car {
-        display: none;
-    }
-
     #idpes {
-        display: none;
-    }
-
-    header #redes {
         display: none;
     }
 
     footer {
         font-size: .6em;
     }
-
-    #burguer {
-        display: none;
-    }
-
-    #openMenu, #closeMenu {
-        display: block;
-    }
 }
 
 @media screen and (min-width: 550px) and (max-width: 628px) {
+
+    .hamburguer {
+        display: block;
+        z-index: 1;
+    }
+
+    #usu {
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(27, 27, 27);
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    #usu a {
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    #usu li:nth-child(1) a {
+        transition: .5s .2s;
+    }
+
+    #usu li:nth-child(2) a {
+        transition: .5s .4s;
+    }
+
+    #usu li:nth-child(3) a {
+        transition: .5s .6s;
+    }
+
+    #usu li:nth-child(4) a {
+        transition: .5s .8s;
+    }
+
+    #usu li:nth-child(5) a {
+        transition: .5s 1s;
+    }
+
+    #usu li:nth-child(6) a {
+        transition: .5s 1.2s;
+    }
+
+    #topo.active #usu {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    #topo.active #usu a {
+        opacity: 1;
+    }
+
+    #topo.active .hamburguer {
+        position: fixed;
+        top: 26px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+
+    #topo.active .hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    #topo.active .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    #pe {
+        display: none;
+    }
 
     header {
         position: sticky;
@@ -126,19 +332,6 @@
         font-size: 1.3em;
     }
 
-    header #redes {
-        display: none;
-    }
-
-    header #usu {
-        display: none;
-    }
-
-    #car {
-        display: none;
-    }
-
-
     #idpes {
         display: none;
     }
@@ -146,13 +339,89 @@
     footer {
         font-size: .9em;
     }
-
-    #burguer {
-        display: none;
-    }
 }
 
 @media screen and (min-width: 628px) and (max-width: 1349px) {
+        
+    .hamburguer {
+        display: block;
+        z-index: 1;
+    }
+
+    #usu {
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(27, 27, 27);
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    #usu a {
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    #usu li:nth-child(1) a {
+        transition: .5s .2s;
+    }
+
+    #usu li:nth-child(2) a {
+        transition: .5s .4s;
+    }
+
+    #usu li:nth-child(3) a {
+        transition: .5s .6s;
+    }
+
+    #usu li:nth-child(4) a {
+        transition: .5s .8s;
+    }
+
+    #usu li:nth-child(5) a {
+        transition: .5s 1s;
+    }
+
+    #usu li:nth-child(6) a {
+        transition: .5s 1.2s;
+    }
+
+    #topo.active #usu {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    #topo.active #usu a {
+        opacity: 1;
+    }
+
+    #topo.active .hamburguer {
+        position: fixed;
+        top: 26px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+
+    #topo.active .hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    #topo.active .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
     header {
         position: sticky;
         top: -1px;
@@ -161,43 +430,12 @@
     #title {
         width: auto;
     }
-
-    #car {
-        display: none;
-    }
-
-    #redes {
-        display: none;
-    }
-
-    #usu {
-        display: none;
-    }
-
-    #burguer {
-        display: none;
-    }
 }
 
 @media screen and (min-width: 1349px) {
 
-    header {
-        position: sticky;
-        top: -1px;
-        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
-    }
-
-    #topo {
-        margin-top: 10px;
-    }
-
     #topo a {
         padding: 3px;
-    }
-
-    #topo #usu {
-        float: right;
-        font-size: 1em;
     }
 
     .logos {
@@ -208,14 +446,6 @@
 
     #burguer {
         display: none;
-    }
-
-    #pe {
-        display: block;
-    }
-
-    #pe > ul > li {
-        display: inline-block;
     }
 
     #pe > ul > li > a:hover {
