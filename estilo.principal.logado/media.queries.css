@@ -95,6 +95,12 @@
 
     #pe {
         display: none;
+        text-align: center;
+    }
+
+    #pe a {
+        width: 100vw;
+        align-items: center;
     }
 
     #title {
@@ -215,6 +221,14 @@
         font-size: 1.5em;
     }
 
+    #pe {
+        display: none;
+    }
+
+    #pe a {
+        width: 100vw;
+    }
+
     #title {
         margin: auto;
     }
@@ -322,6 +336,10 @@
         display: none;
     }
 
+    #pe a {
+        width: 100vw;
+    }
+
     header {
         position: sticky;
         top: -1px;
@@ -420,6 +438,14 @@
     #topo.active .hamburguer::after {
         transform: rotate(-135deg);
         top: -7px;
+    }
+
+    #pe {
+        display: none;
+    }
+
+    #pe a {
+        width: 100vw;
     }
 
     header {

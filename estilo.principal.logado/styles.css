@@ -20,7 +20,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(27, 27, 27);
-    height: 100px;
+    margin: -10px;
 }
 
 #topo ul {
@@ -39,10 +39,16 @@ body {
     font-weight: bold;
 }
 
+#usu {
+    font-size: 20px;
+    transition: .5s;
+}
+
 .logos {
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    transition: .5s;
 }
 
 #topo #usu li:hover {
@@ -106,13 +112,18 @@ header.rolagem div, header.rolagem div a, header.rolagem #pe a{
     text-shadow: none;
 }
 
-header.rolagem #pe{
+header.rolagem #pe, header.rolagem #burguer{
     display: none;
 }
 
-header.rolagem #topo {
-    margin: -10px;
-    padding: 25px;
+header.rolagem .logos {
+    height: 15px;
+    width: 15px;
+    transition: .5s;
+}
+
+header.rolagem #usu {
+    font-size: 15px;
     transition: .5s;
 }
 
@@ -172,11 +183,9 @@ header h1 a {
     display: inline-block;
 }
 
-#pe li a {
-    background-color: #073260;
-}
-
 #pe a {
+    background-color: #073260;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
