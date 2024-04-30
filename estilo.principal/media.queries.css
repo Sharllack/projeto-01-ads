@@ -7,7 +7,7 @@
         z-index: 1;
     }
 
-    #usu {
+    #usu{
         padding: 0;
         margin: 0;
         position: fixed;
@@ -56,7 +56,7 @@
         transition: .5s 1.2s;
     }
 
-    #topo.active #usu {
+    #topo.active #usu  {
         clip-path: circle(1500px at 90% -15%);
         pointer-events: all;
     }
@@ -79,6 +79,52 @@
     #topo.active .hamburguer::after {
         transform: rotate(-135deg);
         top: -7px;
+    }
+
+    #logado div {
+        margin-left: 0px;
+    }
+
+    #logado{
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(27, 27, 27);
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    #logado div {
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    #logado div:nth-child(1){
+        transition: .5s .2s;
+    }
+
+    #logado div:nth-child(2){
+        transition: .5s .4s;
+    }
+
+    #topo.active #logado  {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    #topo.active #logado div {
+        opacity: 1;
     }
 
     header {
@@ -135,7 +181,7 @@
         z-index: 1;
     }
 
-    #usu {
+    #usu{
         padding: 0;
         margin: 0;
         position: fixed;
@@ -209,6 +255,51 @@
         top: -7px;
     }
 
+    #logado div {
+        margin-left: 0px;
+    }
+
+    #logado{
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(27, 27, 27);
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    #logado div {
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    #logado div:nth-child(1){
+        transition: .5s .2s;
+    }
+
+    #logado div:nth-child(2){
+        transition: .5s .4s;
+    }
+
+    #topo.active #logado  {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    #topo.active #logado div {
+        opacity: 1;
+    }
 
     header {
         position: sticky;
@@ -258,7 +349,7 @@
         z-index: 1;
     }
 
-    #usu {
+    #usu{
         padding: 0;
         margin: 0;
         position: fixed;
@@ -338,6 +429,52 @@
 
     #pe a {
         width: 100vw;
+    }
+
+    #logado div {
+        margin-left: 0px;
+    }
+
+    #logado{
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(27, 27, 27);
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    #logado div {
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    #logado div:nth-child(1){
+        transition: .5s .2s;
+    }
+
+    #logado div:nth-child(2){
+        transition: .5s .4s;
+    }
+
+    #topo.active #logado  {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    #topo.active #logado div {
+        opacity: 1;
     }
 
     header {
@@ -366,7 +503,7 @@
         z-index: 1;
     }
 
-    #usu {
+    #usu{
         padding: 0;
         margin: 0;
         position: fixed;
@@ -446,6 +583,52 @@
 
     #pe a {
         width: 100vw;
+    }
+
+    #logado div {
+        margin-left: 0px;
+    }
+
+    #logado{
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(27, 27, 27);
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+
+    #logado div {
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    #logado div:nth-child(1){
+        transition: .5s .2s;
+    }
+
+    #logado div:nth-child(2){
+        transition: .5s .4s;
+    }
+
+    #topo.active #logado  {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    #topo.active #logado div {
+        opacity: 1;
     }
 
     header {
