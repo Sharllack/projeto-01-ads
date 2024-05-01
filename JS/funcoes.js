@@ -24,7 +24,7 @@ window.onload = function() {
     if(username) {
       document.getElementById('user').textContent = 'Olá, ' + username + "!";
       document.getElementById('logout-button').style.display = 'block';
-      document.getElementById('usu').innerHTML = ''; // Esconde as opções de login e cadastro
+      document.getElementById('usu').style.display = 'none'; // Esconde as opções de login e cadastro
       
   };
 }
