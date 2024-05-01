@@ -301,6 +301,7 @@ main {
 
 .slide img {
     width: 100%;
+    height: 80%;
 }
 
 .manual-navigation {
@@ -372,10 +373,6 @@ main {
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: white;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: white;
 }
 
