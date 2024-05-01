@@ -279,13 +279,13 @@ main {
 .slider {
     margin: 0 auto;
     width: 98%;
-    height: 300px;
+    height: 200px;
     overflow: hidden;
 }
 
 .slides {
     width: 400%;
-    height: 400px;
+    height: 300px;
     display: flex;
 }
 
@@ -302,6 +302,8 @@ main {
 .slide img {
     width: 100%;
     height: 80%;
+    display: block;
+    margin: auto;
 }
 
 .manual-navigation {
@@ -329,15 +331,15 @@ main {
 }
 
 #radio1:checked ~ .first {
-    margin-left: -0.61%;
+    margin-left: 0%;
 }
 
 #radio2:checked ~ .first {
-    margin-left: -25.61%;
+    margin-left: -25%;
 }
 
 #radio3:checked ~ .first {
-    margin-left: -50.61%;
+    margin-left: -50%;
 }
 
 #radio4:checked ~ .first {
@@ -355,7 +357,7 @@ main {
 .navigation-auto{
     position: absolute;
     width: 90%;
-    margin-top: 260px;
+    margin-top: 160px;
     display: flex;
     justify-content: center;
 }
@@ -374,6 +376,19 @@ main {
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
     background-color: white;
+}
+
+#tprod {
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    background-color: #073260;
+    color: white;
+    width: 98.2%;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: bold;
 }
 
 .prod img {
