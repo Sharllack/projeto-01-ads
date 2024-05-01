@@ -661,8 +661,4 @@
         background-color: rgb(94, 93, 93);
         transition-duration: .5s;
     }
-
-    main {
-        width: 900px;
-    }
 }
