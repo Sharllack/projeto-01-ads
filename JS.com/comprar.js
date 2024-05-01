@@ -101,11 +101,12 @@ function buscarDetalhesProduto(idProduto) {
       <div class="product-info">
         <h1>${produto.nome}</h1>
         <p class="price">${produto.preco}</p>
-        <button onclick="toggleDescricao()">Descrição</button>
-            <div id="descricaoProduto" class="hidden">
+        <p class="parc">Em até 4x sem juros!</p>
+        <button class="buy-button" onclick="comprarProduto()">Comprar</button>
+        <button onclick="toggleDescricao()" id="desc">Descrição</button>
+        <div id="descricaoProduto" class="hidden">
               <p>${produto.descricao}</p>
             </div>
-        <button class="buy-button" onclick="comprarProduto()">Comprar</button>
       </div>
     `;
   };
