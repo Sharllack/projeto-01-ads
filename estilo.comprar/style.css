@@ -15,7 +15,7 @@ body { font-family: Arial, sans-serif;
   .thumbnail:hover { opacity: 0.6; }
   .main-image { width: 350px; height: auto; border: 1px solid #ddd; }
   .product-info { flex-grow: 1; }
-  .price { color: rgb(255, 255, 255); font-weight: bold; margin-top: 20px;}
+  .price { color: rgb(0, 0, 0); font-weight: bold; margin-top: 20px;}
   .buy-button { background-color: blue; color: white; padding: 10px 20px; text-decoration: none; display: block; margin-top: 20px; border: none; cursor: pointer;}
   .hidden {
     display: none;

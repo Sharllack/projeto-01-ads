@@ -271,7 +271,7 @@
     }
     
     .prod img {
-        width: 109px;
+        width: 100%;
         display: block;
         transition: .2s ease;
         object-fit: contain;
@@ -614,7 +614,7 @@
     }
     
     .prod img {
-        width: 135px;
+        width: 100%;
         display: block;
         transition: .2s ease;
         object-fit: contain;
@@ -686,8 +686,6 @@
         color: red;
         font-weight: bold;
     }
-
-
 
     footer {
         font-size: .6em;
@@ -931,7 +929,92 @@
         background-color: white;
     }
 
+    #tprod {
+        font-size: 2em;
+        display: block;
+        text-align: center;
+        background-color: #073260;
+        color: white;
+        width: 98.2%;
+        margin-left: 12px;
+        margin-top: 10px;
+        padding: 5px;
+        font-weight: bold;
+    }
     
+    .prod img {
+        width: 100%;
+        display: block;
+        transition: .2s ease;
+        object-fit: contain;
+    }
+    
+    .prod img:hover {
+        transform: scale(1.03);
+    }
+    
+    .prod {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+    .prod div {
+        flex: 1 1 135px;
+        margin: 10px;
+        background-color: white;
+        width: 120px;
+        border: 1px solid rgb(182, 181, 181);
+    }
+    
+    .prod h2 {
+        float: right;
+        margin-right: 3px;
+        background-color: rgba(128, 128, 128, 0.329);
+        padding: 3px 100px 3px 0px;
+        border-radius: 0 20px;
+        position: relative; /* Necessário para o z-index funcionar */
+        z-index: 9; /* Um valor maior que o da imagem para ficar por cima */
+        width: 80px;
+        font-size: .6em;
+    }
+    
+    .prod .hr1 {
+        margin: 40px 20px 10px 20px;
+    }
+    
+    .prod .hr2 {
+        margin: 20px 20px 0px 20px;
+    }
+    
+    .prod p {
+        text-align: center;
+    }
+    
+    .prod span {
+        font-size: .9em;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .prod-item {
+        overflow: hidden;
+    }
+    
+    .prod-item p {
+        margin-top: 40px;
+        text-align: center;
+        width: 80px;
+        margin: auto;
+        font-size: .6em;
+    }
+    
+    .prod-item p a {
+        text-decoration: none;
+        color: red;
+        font-weight: bold;
+    }
 
     footer {
         font-size: .9em;
@@ -1184,7 +1267,7 @@
     }
     
     .prod img {
-        width: 250px;
+        width: 100%;
         display: block;
         transition: .2s ease;
         object-fit: contain;
