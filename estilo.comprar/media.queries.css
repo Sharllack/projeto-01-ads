@@ -2,12 +2,6 @@
 
 @media screen and (max-width: 375px) {
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
     body {
         background: rgb(255, 255, 255);
     }
@@ -468,8 +462,8 @@ footer {
 
 @media screen and (min-width: 550px) and (max-width: 700px) {
 
-    html {
-        height: 100%;
+    body {
+        background-color: white;
     }
 
     .hamburguer {
@@ -698,8 +692,8 @@ footer {
 
 @media screen and (min-width: 700px) and (max-width: 1349px) {
 
-    html {
-        height: 100%;
+    body {
+        background-color: white;
     }
 
     .hamburguer {
