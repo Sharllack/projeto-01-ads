@@ -2,8 +2,14 @@
 
 @media screen and (max-width: 375px) {
 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     body {
-        background: black;
+        background: rgb(255, 255, 255);
     }
 
     .hamburguer {
@@ -197,7 +203,7 @@
     width: 100%;
     justify-content: center;
     margin: auto;
-    padding: 25px;
+    padding: 15px;
 }
 
 #desc {
@@ -215,8 +221,7 @@
     color: rgb(0, 0, 0);
     margin-top: 10px;
     font-size: .5em;
-    margin-bottom: 10px;
-    height: 100vh;
+    margin-bottom: 20px;
 }
 
 .parc {
@@ -233,8 +238,8 @@ footer {
 
 @media screen and (min-width: 375px) and (max-width: 550px) {
 
-    html {
-        height: 100%;
+    body {
+        background: rgb(255, 255, 255);
     }
 
     .hamburguer {
@@ -446,8 +451,7 @@ footer {
     color: rgb(0, 0, 0);
     margin-top: 10px;
     font-size: .5em;
-    margin-bottom: 10px;
-    height: 100vh;
+    margin-bottom: 20px;
 }
 
 .parc {
@@ -677,8 +681,7 @@ footer {
     color: rgb(0, 0, 0);
     margin-top: 10px;
     font-size: .5em;
-    margin-bottom: 10px;
-    height: 100vh;
+    margin-bottom: 20px;
 }
 
 .parc {
@@ -908,8 +911,7 @@ footer {
     color: rgb(0, 0, 0);
     margin-top: 10px;
     font-size: .5em;
-    margin-bottom: 10px;
-    height: 100vh;
+    margin-bottom: 20px;
 }
 
 .parc {
