@@ -8,10 +8,7 @@
 }
 
 body { font-family: Arial, sans-serif;
-    background: url(../imagens/imagenssite/fundo.jpeg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
+    background-color: white;
 }
   .product-images { margin-right: 20px; margin-left: 50px;}
   .thumbnail { width: 50px; height: auto; cursor: pointer; }
@@ -280,7 +277,7 @@ header h1 a {
 
 #produtoContainer {
     display: flex;
-    background-color: #073260e1;
+    background-color: #ffffff;
     width: 80%;
     justify-content: center;
     margin: 5px auto;
@@ -290,7 +287,8 @@ header h1 a {
 
 #desc {
     margin-top: 20px;
-    background-color: white;
+    background-color: rgb(59, 59, 59);
+    color:white;
     border: none;
     width: 95px;
     padding: 10px 20px;
@@ -299,7 +297,7 @@ header h1 a {
 
 #descricaoProduto {
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 10px;
 }
 
