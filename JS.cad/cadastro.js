@@ -20,7 +20,7 @@ function cadastrarUsuario(event) {
     let csen = document.getElementById("idcsen");
 
     if (sen.value != csen.value) {
-        alert('As senhas não correspondem!')
+        alert('As senhas não correspondem!');
         
     }else if (nome.value != ''
             && data.value != ''
